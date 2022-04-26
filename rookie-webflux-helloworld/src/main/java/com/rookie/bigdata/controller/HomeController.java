@@ -1,7 +1,7 @@
 package com.rookie.bigdata.controller;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
@@ -16,7 +16,7 @@ import reactor.core.publisher.Mono;
 @RestController
 public class HomeController {
 
-    private static final Log logger = LogFactory.getLog(HomeController.class);
+    private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 
 
     @RequestMapping({"/controller"})
