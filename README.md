@@ -9,5 +9,7 @@
 
 [rookie-webflux-thymeleaf](.\rookie-webflux-thymeleaf\README.md) webflux整合thymeleaf
 
+[rookie-webflux-logback](.\rookie-webflux-logback\README.md) webflux整合logback
+
 
 
