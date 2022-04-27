@@ -1,0 +1,24 @@
+#修改端口号
+server:
+  port: 9000
+
+
+
+logging:
+  level:
+    org:
+      springframework: debug
+    com:
+      rookie:
+        bigdata: debug
+#spring:
+#  webflux:
+#    #如果添加该配置则在访问资源的时候需要加前缀/assets/
+#    static-path-pattern: /assets/**
+#  web:
+#    resources:
+#      #自定义资源路径
+#      static-locations: classpath:/imag/
+
+##  private static final String[] CLASSPATH_RESOURCE_LOCATIONS = { "classpath:/META-INF/resources/",
+##  "classpath:/resources/", "classpath:/static/", "classpath:/public/" };

@@ -12,6 +12,8 @@
         <module>rookie-webflux-helloworld</module>
         <module>rookie-webflux-file</module>
         <module>rookie-webflux-filter</module>
+        <module>rookie-webflux-resources</module>
+        <module>rookie-webflux-thymeleaf</module>
     </modules>
 
     <properties>
