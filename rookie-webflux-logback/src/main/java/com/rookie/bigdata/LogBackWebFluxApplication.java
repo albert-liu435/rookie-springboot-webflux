@@ -1,5 +1,9 @@
 package com.rookie.bigdata;
 
+import ch.qos.logback.classic.LoggerContext;
+import ch.qos.logback.core.status.OnConsoleStatusListener;
+import ch.qos.logback.core.status.StatusManager;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,9 +15,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Version 1.0
  */
 @SpringBootApplication
-public class FileWebFluxApplication {
+public class LogBackWebFluxApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FileWebFluxApplication.class, args);
+
+
+
+        SpringApplication.run(LogBackWebFluxApplication.class, args);
     }
 }
