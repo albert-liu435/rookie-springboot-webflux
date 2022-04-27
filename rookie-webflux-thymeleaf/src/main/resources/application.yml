@@ -1,0 +1,29 @@
+#修改端口号
+server:
+  port: 9000
+
+
+
+logging:
+  level:
+    org:
+      springframework: debug
+    com:
+      rookie:
+        bigdata: debug
+
+
+#  spring.thymeleaf.cache=false
+#  spring.thymeleaf.check-template=true
+#  spring.thymeleaf.check-template-location=true
+#  spring.thymeleaf.content-type=text/html
+#  spring.thymeleaf.enabled=true
+#  spring.thymeleaf.encoding=UTF-8
+#  spring.thymeleaf.mode=LEGACYHTML5
+#  spring.thymeleaf.prefix=classpath:/static/
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+
+#  spring.thymeleaf.suffix=.html
