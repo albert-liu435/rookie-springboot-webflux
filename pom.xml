@@ -15,6 +15,9 @@
         <module>rookie-webflux-resources</module>
         <module>rookie-webflux-thymeleaf</module>
         <module>rookie-webflux-logback</module>
+        <module>rookie-webflux-r2dbc-mysql-template</module>
+
+        <module>rookie-webflux-r2dbc-mysql</module>
     </modules>
 
     <properties>
