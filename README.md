@@ -13,5 +13,5 @@
 
 [rookie-webflux-r2dbc-mysql](.\rookie-webflux-r2dbc-mysql\README.md) webflux整合mysql增删改查
 
-
+[rookie-webflux-r2dbc-mysq-templatel](.\rookie-webflux-r2dbc-mysql-template\README.md) webflux整合mysql使用template进行增删改查
 
